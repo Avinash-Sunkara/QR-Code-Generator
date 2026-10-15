@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">QR Studio workflows</title>
+  <desc id="desc">Two simple workflows: generate a QR code, or scan a QR code from an image or camera.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f3f6fb}.card{fill:#fff;stroke:#dbe3ef;stroke-width:2}.ink{fill:#17243a;font-family:Arial,sans-serif}.muted{fill:#63718a;font-family:Arial,sans-serif}.blue{fill:#2457d6}.step{fill:#f7f9fd;stroke:#dbe3ef;stroke-width:1.5}.line{stroke:#93a5c1;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#93a5c1"/></marker>
+  </defs>
+  <rect class="bg" width="1100" height="560" rx="24"/>
+  <text class="ink" x="50" y="58" font-size="30" font-weight="700">QR Studio · How it works</text>
+  <text class="muted" x="50" y="88" font-size="16">Choose one of two workflows in the app.</text>
+  <rect class="card" x="45" y="120" width="490" height="395" rx="18"/>
+  <rect class="card" x="565" y="120" width="490" height="395" rx="18"/>
+  <rect class="blue" x="70" y="145" width="142" height="34" rx="17"/>
+  <text x="91" y="168" fill="white" font-family="Arial,sans-serif" font-size="15" font-weight="700">GENERATE</text>
+  <text class="ink" x="70" y="218" font-size="22" font-weight="700">Make a QR code</text>
+  <rect class="step" x="70" y="248" width="195" height="90" rx="12"/><text class="ink" x="88" y="281" font-size="16" font-weight="700">1 · Choose a type</text><text class="muted" x="88" y="307" font-size="14">Text · Wi-Fi · Contact</text>
+  <path class="line" d="M270 293H307"/>
+  <rect class="step" x="315" y="248" width="190" height="90" rx="12"/><text class="ink" x="333" y="281" font-size="16" font-weight="700">2 · Fill required</text><text class="muted" x="333" y="307" font-size="14">Fields marked with *</text>
+  <path class="line" d="M410 343V378"/>
+  <rect class="step" x="315" y="386" width="190" height="90" rx="12"/><text class="ink" x="333" y="419" font-size="16" font-weight="700">3 · Save PNG</text><text class="muted" x="333" y="445" font-size="14">Pick a file location</text>
+  <path class="line" d="M310 431H272"/>
+  <rect class="step" x="70" y="386" width="195" height="90" rx="12"/><text class="ink" x="88" y="419" font-size="16" font-weight="700">QR code ready</text><text class="muted" x="88" y="445" font-size="14">Share or print it</text>
+  <rect class="blue" x="590" y="145" width="106" height="34" rx="17"/>
+  <text x="612" y="168" fill="white" font-family="Arial,sans-serif" font-size="15" font-weight="700">SCAN</text>
+  <text class="ink" x="590" y="218" font-size="22" font-weight="700">Read a QR code</text>
+  <rect class="step" x="590" y="248" width="195" height="90" rx="12"/><text class="ink" x="608" y="281" font-size="16" font-weight="700">1 · Choose source</text><text class="muted" x="608" y="307" font-size="14">Image file or camera</text>
+  <path class="line" d="M790 293H827"/>
+  <rect class="step" x="835" y="248" width="190" height="90" rx="12"/><text class="ink" x="853" y="281" font-size="16" font-weight="700">2 · Scan code</text><text class="muted" x="853" y="307" font-size="14">Camera: press Q to quit</text>
+  <path class="line" d="M930 343V378"/>
+  <rect class="step" x="835" y="386" width="190" height="90" rx="12"/><text class="ink" x="853" y="419" font-size="16" font-weight="700">3 · View result</text><text class="muted" x="853" y="445" font-size="14">Decoded text appears</text>
+  <path class="line" d="M830 431H792"/>
+  <rect class="step" x="590" y="386" width="195" height="90" rx="12"/><text class="ink" x="608" y="419" font-size="16" font-weight="700">Content displayed</text><text class="muted" x="608" y="445" font-size="14">Copy from Scan result</text>
+</svg>
