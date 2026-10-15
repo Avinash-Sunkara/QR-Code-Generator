@@ -4,7 +4,7 @@ A desktop app to make custom QR codes and read them from images or a camera.
 
 ## Sample
 
-This sample QR code contains the demo URL `https://example.com/qr-studio-demo`. Scan it with a phone or use the app's **Scan** tab.
+This sample QR code contains the YouTube URL `https://www.youtube.com/`. Scan it with a phone or use the app's **Scan** tab.
 
 ![Sample QR code](samples/sample_qr.png)
 
